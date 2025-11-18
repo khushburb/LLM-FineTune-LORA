@@ -1,0 +1,8 @@
+transformers>=4.30.0
+datasets
+peft
+accelerate
+torch>=2.0
+flask
+sentencepiece  # if model requires it
+# bitsandbytes only if you have CUDA GPU and plan to use quantization
